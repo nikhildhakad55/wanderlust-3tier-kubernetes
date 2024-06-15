@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: dataspider/frontend-wanderlust:v2.2.7
+          image: nikhildhakad/frontend-wanderlust:v2.18
           ports:
             - containerPort: 5173
 ---
