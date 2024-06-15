@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: dataspider/backend-wanderlust:v2.2.7
+          image: nikhildhakad/backend-wanderlust:v2.18
           ports:
             - containerPort: 8080
 ---
