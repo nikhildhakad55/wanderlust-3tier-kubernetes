@@ -21,6 +21,12 @@ spec:
           image: mongo
           ports:
             - containerPort: 27017
+          env:
+            - name: MONGO_INITDB_ROOT_USERNAME
+              value: "nikhil"
+            - name: MONGO_INITDB_ROOT_PASSWORD
+              value: "1234"
+
           volumeMounts:
             - name: mongo-storage
               mountPath: /data/db
